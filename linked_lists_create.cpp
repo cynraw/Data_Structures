@@ -1,52 +1,58 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-struct node{
+struct node {
     int data;
     node *next;
 };
-void printList(node* head)
-{
+
+void printList(node* head) {
     node* current = head;
-        while(current !=NULL){
-            cout << current -> data << "->";
-            current = current->next;
-        }
-        cout<< "NULL";
-}
-int main(){
-    
-    node *n = NULL; // temporary pointer for creating new nodes
-    node *t = NULL; // tail poniter
-    node *h = NULL; // head pointer
-
-    // creating a node and adding value
-    n = new node;
-    n->data = 1;
-    n->next = NULL;
-    h = n;
-    t = n;
-
-    n = new node;
-    n->data = 2;
-    n->next = NULL;
-    t->next = n;
-    t=n;
-
-    n=new node;
-    n->data = 3;
-    n->next = NULL;
-    t->next = n;
-    t = n; 
-    cout << "Linked list" << endl;
-    printList(h);
-
-    node *current = h;
-    while(current != NULL){
-        node *temp = current;
+    while (current != nullptr) {
+        cout << current->data << "->";
         current = current->next;
-        delete temp;
     }
+    cout << "NULL" << endl;
+}
+
+// Function to create a new node
+node* create_a_node(int value) {
+    node* newnode = new node();
+    newnode->data = value;
+    newnode->next = nullptr;
+
+    return newnode;
+}
+
+// Function to add a node at the end of the list
+void addFromTail(node *&head, int value) {
+    node *newnode = create_a_node(value);
+
+    if (head == nullptr) {
+        head = newnode;
+        return;
+    }
+
+    node *current = head;
+    // Traverse to the last node
+    while (current->next != nullptr) {
+        current = current->next;
+    }
+
+    // Link the new node to the last node
+    current->next = newnode;
+}
+
+int main() {
+    node *head = nullptr; // null pointer created
+
+    // Adding nodes to the list
+    head = create_a_node(10); // First node
+    addFromTail(head, 11);    // Second node
+    addFromTail(head, 12);    // Third node
+
+    // Print the list
+    printList(head);
 
     return 0;   
 }
