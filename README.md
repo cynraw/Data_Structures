@@ -24,3 +24,16 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - When a function is called, its execution context (parameters, local variables, return address) is pushed onto the call stack. When the function finishes, this data is popped off the stack. This is how most programming languages handle recursion and nested function calls.
 - Syntax Parsing:
 - Compilers use stacks to help with parsing and validating syntax, such as matching parentheses, curly braces, or tags in programming languages or markup languages.
+### Queues
+- Operates on FIFO(First In First Out) principle. E.g a line at a checkout counter; the first person in line is the first one to be served.
+- Operations:
+- Enqueue: Add an element to the back of the queue.
+- Dequeue: Remove the element from the front of the queue.
+- Peek/Front: View the element at the front of the queue without removing it
+- Aplications:
+- Task Scheduling:
+- Operating systems use queues to manage tasks waiting to be executed. Tasks are enqueued when submitted and dequeued when it's their turn to be executed. Examples include job scheduling or printer task management.
+- Handling Requests in Servers:
+- Web servers, routers, and load balancers use queues to manage incoming requests. Requests are processed in the order they arrive (FIFO). This ensures fairness in handling tasks like serving web pages or routing network packets.
+- Simulation Systems:
+- Queues are used in simulation systems (e.g., simulating customer service lines or traffic flow), where entities wait in line to be processed or served, mimicking real-world scenarios like airport queues or call center operations.
