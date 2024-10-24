@@ -8,6 +8,23 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - Doubly linked list have another member which is a pointer that ppoints to the previous node.
 - The structure of a node: struct node { int data; node* next;};
 - To create and adding a value linked list: n = new node; n->data=1; h = n; t = n;(first member in the list) n = new node; n->data=2; t->next=n;t=t->next;(second member) n=new node; n->data=3;  n->next=NULL; t->next=n;
+### Reversing a linked list
+- Reversing a linked list means changing the direction of the pointers so that the head points to the last node and each subsequent node points to the previous one.
+- Steps to Reverse a Linked List
+- To reverse the list, you need to:
+- Traverse the list.
+- At each step, reverse the next pointer so that it points to the previous node.
+- Pseudocode Explanation
+- You’ll need three pointers:
+- prev - Initially set to NULL, current - Starts at the head of the list, next - Used to temporarily store the next node before changing the pointers.
+- Here’s the step-by-step process:
+- Start with prev = NULL, current = head, and next = NULL.
+- While current is not NULL:
+- Store the next node (next = current->next).
+- Reverse the pointer (current->next = prev).
+- Move the prev pointer one step forward (prev = current).
+- Move the current pointer one step forward (current = next).
+- When current becomes NULL, prev will be pointing to the new head (the last node).
 
 ## Stack and Queues
 - Both Linear data structures used to store and manage collections of elements but use different principles for accessing and removing elements.
