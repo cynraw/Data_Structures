@@ -38,7 +38,7 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - Undo/Redo functionality:
 - Many software applications, like word processors and graphic editors, use stacks to implement undo and redo operations. Every action is pushed onto a stack, and when undo is triggered, the last action is popped off.
 - Function Call Management:
-- When a function is called, its execution context (parameters, local variables, return address) is pushed onto the call stack. When the function finishes, this data is popped off the stack. This is how most programming languages handle recursion and nested function calls.
+- When a function is called, its execution context (parameters, local variables, return address) is pushed onto the call stack. When the function finishes, this data is popped off the stack.This is how most programming languages handle recursion and nested function calls.
 - Syntax Parsing:
 - Compilers use stacks to help with parsing and validating syntax, such as matching parentheses, curly braces, or tags in programming languages or markup languages.
 ### Queues
