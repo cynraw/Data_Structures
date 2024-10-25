@@ -33,7 +33,7 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - Operations :
 - Push()- Add an element at the top of the stack
 - Pop()- Remove the element from the top of the stack
-- Peek() - View the top element without removing it
+- Peek()- View the top element without removing it
 - Applications of stack:
 - Undo/Redo functionality:
 - Many software applications, like word processors and graphic editors, use stacks to implement undo and redo operations. Every action is pushed onto a stack, and when undo is triggered, the last action is popped off.
