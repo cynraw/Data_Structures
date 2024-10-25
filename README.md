@@ -45,7 +45,7 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - Operates on FIFO(First In First Out)principle. E.g a line at a checkout counter; the first person in line is the first one to be served.
 - Operations:
 - Enqueue:Add an element to the back of the queue.
-- Dequeue: Remove the element from the front of the queue.
+- Dequeue:Remove the element from the front of the queue.
 - Peek/Front: View the element at the front of the queue without removing it
 - Aplications:
 - Task Scheduling:
