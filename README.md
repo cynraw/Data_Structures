@@ -31,7 +31,7 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 ### Stack
 - Operates on LIFO(Last In First Out) principle, the last element to be added is the first to be removed.
 - Operations :
-- Push() - Add an element at the top of the stack
+- Push()- Add an element at the top of the stack
 - Pop() - Remove the element from the top of the stack
 - Peek() - View the top element without removing it
 - Applications of stack:
