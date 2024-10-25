@@ -42,7 +42,7 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - Syntax Parsing:
 - Compilers use stacks to help with parsing and validating syntax, such as matching parentheses, curly braces, or tags in programming languages or markup languages.
 ### Queues
-- Operates on FIFO(First In First Out) principle. E.g a line at a checkout counter; the first person in line is the first one to be served.
+- Operates on FIFO(First In First Out)principle. E.g a line at a checkout counter; the first person in line is the first one to be served.
 - Operations:
 - Enqueue: Add an element to the back of the queue.
 - Dequeue: Remove the element from the front of the queue.
