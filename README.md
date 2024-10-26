@@ -29,7 +29,7 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 ## Stack and Queues
 - Both Linear data structures used to store and manage collections of elements but use different principles for accessing and removing elements.
 ### Stack
-- Operates on LIFO(Last In First Out) principle, the last element to be added is the first to be removed.
+- Operates on LIFO(Last In First Out)principle, the last element to be added is the first to be removed.
 - Operations :
 - Push()-Add an element at the top of the stack
 - Pop()-Remove the element from the top of the stack
