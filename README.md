@@ -67,4 +67,8 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - For example, if 𝑛=8n=8 (binary 1000), 𝑛−1=7n−1=7 (binary 0111).
 - When you perform n & (n - 1), the result is zero if n has only one 1 bit:8&7=1000&0111=00008&7=1000&0111=0000
 - Thus, the condition (n & (n - 1)) == 0 is only true for powers of two.
-- 
+- The n & (n - 1) method is widely considered the best approach for several reasons:
+- Efficiency: The bitwise & operation is extremely fast and operates in constant time, 𝑂(1)O(1), making it highly efficient.
+- Minimal Computation: This method only requires one subtraction and one & operation, which is computationally cheap.
+- Clarity: The expression n & (n - 1) is a clear, concise condition that directly checks for the binary structure of powers of two without needing loops or more complex logic.
+- Avoids Overflow: Other methods, like iterative multiplication, can lead to overflow for large numbers, whereas this method works reliably within the range of integer representation.
