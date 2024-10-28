@@ -57,3 +57,4 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 
 #### FizzBuzz Interview Question
 - write a program which prints fizz if a number is divisible by 3, Buzz when a number is divisible by 5, FizzBuzz if it is divisible by both 3 abd 5 and to print the number if it does not meet any of these conditions.
+- This condition 9if(i % 3 == 0 && i % 5 == 0){cout << "fizzBuzz" << endl; })should always come first otherwise it will not be achieved.
