@@ -55,5 +55,5 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - Simulation Systems:
 - Queues are used in simulation systems (e.g., simulating customer service lines or traffic flow), where entities wait in line to be processed or served, mimicking real-world scenarios like airport queues or call center operations.
 
-#### Fizzbuzz Interview Question
+#### FizzBuzz Interview Question
 - write a program which prints fizz if a number is divisible by 3, Buzz when a number is divisible by 5, FizzBuzz if it is divisible by both 3 abd 5 and to print the number if it does not meet any of these conditions.
