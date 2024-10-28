@@ -59,7 +59,7 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - write a program which prints fizz if a number is divisible by 3, Buzz when a number is divisible by 5, FizzBuzz if it is divisible by both 3 abd 5 and to print the number if it does not meet any of these conditions.
 - This condition 9if(i % 3 == 0 && i % 5 == 0){cout << "fizzBuzz" << endl; })should always come first otherwise it will not be achieved.
 
-#### Power of Two
+#### Power of Two Interview Question
 - The most common way to check if a number n is a power of two is using the expression n & (n - 1).
 - Here’s how it works:
 - For a number n that is a power of two, n has a single 1 bit in its binary form.
