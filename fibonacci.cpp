@@ -2,6 +2,7 @@
 using namespace std;
 
 void fibonacci(int x) {
+
     int a = 0;
     int b = 1;
     int next;
