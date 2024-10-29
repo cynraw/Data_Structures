@@ -7,7 +7,7 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - Collection of nodes that contain two members, one data item and a pointer to the next node (in singly linked lists)
 - Doubly linked list have another member which is a pointer that ppoints to the previous node.
 - The structure of a node: struct node { int data; node* next;};
-- To create and adding a value linked list: n = new node; n->data=1; h = n; t = n;(first member in the list) n = new node; n->data=2; t->next=n;t=t->next;(second member) n=new node; n->data=3;  n->next=NULL; t->next=n;
+- To create and adding a value linked list: n = new node; n->data=1; h = n; t = n;(first member in the list) n = new node; n->data=2; t->next=n;t=t->next; (second member) n=new node; n->data=3;  n->next=NULL; t->next=n;
 ### Reversing a linked list
 - Reversing a linked list means changing the direction of the pointers so that the head points to the last node and each subsequent node points to the previous one.
 - Steps to Reverse a Linked List
