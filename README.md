@@ -1,4 +1,4 @@
-# Data_Structures
+# Data Structures
 Deepening my knowledge in data structure while participating in GOL clinics.
 
 ## Linked lists
