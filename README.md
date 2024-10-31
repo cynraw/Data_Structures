@@ -42,8 +42,7 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - Syntax Parsing:
 - Compilers use stacks to help with parsing and validating syntax, such as matching parentheses, curly braces, or tags in programming languages or markup languages.
 #### Array implementation of a stack
-- Focusing on push and pop operations.
-- insertions and deletions are allowed only at the top of the stack.
+- Insertions and deletions are allowed only at the top of the stack.
 - In an array we can insert at any position and also delete at any position.
 - But in this case we want the array to behave like a stack, so we use a variable top that keeps track of the last inserted element / the top most element in an array.
 - Assumption is that we are given the capacity of an array.
@@ -51,7 +50,6 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - We can then increment top by 1 variable then add a new element at the index/position 0.
 - When the stack is full  there is not enough space to add an element. This state is called overflow state and the elemet cant be pushed.
 - To perform deletion: The element at the position of top is deleted then the top is decremented by 1.
-- 
   
 ### Queues
 - Operates on FIFO(First In First Out)principle. E.g a line at a checkout counter; the first person in line is the first one to be served.
