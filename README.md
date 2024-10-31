@@ -48,6 +48,10 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - But in this case we want the array to behave like a stack, so we use a variable top that keeps track of the last inserted element / the top most element in an array.
 - Assumption is that we are given the capacity of an array.
 - In order to indicate that the stack is empty we store -1 at the top variable.
+- We can then increment top by 1 variable then add a new element at the index/position 0.
+- When the stack is full  there is not enough space to add an element. This state is called overflow state and the elemet cant be pushed.
+- To perform deletion: The element at the position of top is deleted then the top is decremented by 1.
+- 
   
 ### Queues
 - Operates on FIFO(First In First Out)principle. E.g a line at a checkout counter; the first person in line is the first one to be served.
