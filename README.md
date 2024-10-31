@@ -41,6 +41,8 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - When a function is called, its execution context (parameters, local variables, return address) is pushed onto the call stack. When the function finishes, this data is popped off the stack.This is how most programming languages handle recursion and nested function calls.
 - Syntax Parsing:
 - Compilers use stacks to help with parsing and validating syntax, such as matching parentheses, curly braces, or tags in programming languages or markup languages.
+#### Array implementation of a stack
+- 
 ### Queues
 - Operates on FIFO(First In First Out)principle. E.g a line at a checkout counter; the first person in line is the first one to be served.
 - Operations:
