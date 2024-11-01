@@ -50,6 +50,7 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - We can then increment top by 1 variable then add a new element at the index/position 0.
 - When the stack is full  there is not enough space to add an element. This state is called overflow state and the elemet cant be pushed.
 - To perform deletion: The element at the position of top is deleted then the top is decremented by 1.
+- pop() deletes the top most element of the stack and returns that element.
   
 ### Queues
 - Operates on FIFO(First In First Out)principle. E.g a line at a checkout counter; the first person in line is the first one to be served.
