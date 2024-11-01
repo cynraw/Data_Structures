@@ -15,7 +15,7 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - Traverse the list.
 - At each step,reverse the next pointer so that it points to the previous node.
 - Pseudocode Explanation
-- You’ll need three pointers:
+- You will need three pointers:
 - prev- Initially set to NULL, current - Starts at the head of the list, next - Used to temporarily store the next node before changing the pointers.
 - Here’s the step-by-step process:
 - Start with prev = NULL, current = head, and next = NULL.
