@@ -83,3 +83,6 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - Minimal Computation: This method only requires one subtraction and one & operation, which is computationally cheap.
 - Clarity: The expression n & (n - 1) is a clear, concise condition that directly checks for the binary structure of powers of two without needing loops or more complex logic.
 - Avoids Overflow: Other methods, like iterative multiplication, can lead to overflow for large numbers, whereas this method works reliably within the range of integer representation.
+
+## Recursion
+- 
