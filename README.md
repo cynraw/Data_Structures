@@ -88,3 +88,4 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - A function that calls itself.
 - The function can call itself infinite number of time.
 - To prevent this we should declare a base case which in which when attained the function stops.
+- We also have a recursive part whereby the code keeps executing as long as the base case is not reached.
