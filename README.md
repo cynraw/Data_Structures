@@ -85,4 +85,5 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - Avoids Overflow: Other methods, like iterative multiplication, can lead to overflow for large numbers, whereas this method works reliably within the range of integer representation.
 
 ## Recursion
+- A function that calls itself.
 - 
