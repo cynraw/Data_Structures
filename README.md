@@ -95,4 +95,4 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - First we have to initiate two variables one to hold the original number (Will be same to the number passed to the function but cannot be manipulated only to be used to compare with the reversed number) and another variable to store the reversed string.
 - We are the going to initiate a loop that checks if the number is greater than 0. If so we are going to extract the last digit and store it in a variable digit.
 - We are then going to calculate the reversed number by multiplying by 10 and adding the digit.
-- after the loop has been executed we can then compare the reversed string with the original string. 
+- After the loop has been executed we can then compare the reversed string with the original string. 
