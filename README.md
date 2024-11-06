@@ -92,3 +92,5 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 
 ### Palindrome Number 
 - Given an integer x, return true if x is a palindrome, and false otherwise.
+- First we have to initiate two variables one to hold the original number (Will be same to the number passed to the function but cannot be manipulated only to be used to compare with the reversed number) and another variable to store the reversed string.
+- We are the going to initiate a loop that checks if the number is greater than 0.
