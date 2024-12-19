@@ -103,4 +103,13 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 ## Linked List Cycle
 - Linked List Cycle involves detecting whether a linked list contains a cycle. A cycle exists if a node in the list points back to a previous node, forming a loop. This can be solved using Floyd’s Cycle Detection Algorithm, also known as the Tortoise and Hare algorithm.
 - Tortoise and Hare algorithm. Floyd's tortoise and hare algorithm moves two pointers at different speeds through the sequence of values until they both point to equal values.
-- 
+- Approach: Floyd's Cycle Detection Algorithm
+- Two Pointers: Use two pointers (slow and fast):
+- slow moves one step at a time.
+- fast moves two steps at a time.
+- Cycle Detection Logic:
+- If there is a cycle, slow and fast will eventually meet because the fast pointer will "lap" the slow pointer within the cycle.
+- If there is no cycle, the fast pointer will reach the end of the list (null).
+- Time Complexity: 𝑂(𝑛). O(n) because both pointers traverse the list at most once.
+- Space Complexity: 𝑂(1). O(1) because no additional data structures are used.
+
