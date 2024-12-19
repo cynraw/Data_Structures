@@ -114,4 +114,5 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - Space Complexity: 𝑂(1). O(1) because no additional data structures are used.
 ## Reverse Linked List II
 - Given the head of a singly linked list and two integers left and right where left <= right, reverse the nodes of the list from position left to position right, and return the reversed list.
+- Input is a singly linked list, and two integers left and right.The task is to reverse the nodes from position left to position right (1-based indexing).
 
