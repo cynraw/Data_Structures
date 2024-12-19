@@ -102,3 +102,5 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 # LEET CODE PROBLEMS 
 ## Linked List Cycle
 - Linked List Cycle involves detecting whether a linked list contains a cycle. A cycle exists if a node in the list points back to a previous node, forming a loop. This can be solved using Floyd’s Cycle Detection Algorithm, also known as the Tortoise and Hare algorithm.
+### Tortoise and Hare algorithm
+- Floyd's tortoise and hare algorithm moves two pointers at different speeds through the sequence of values until they both point to equal values.
