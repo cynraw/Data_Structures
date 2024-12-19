@@ -112,4 +112,6 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - If there is no cycle, the fast pointer will reach the end of the list (null).
 - Time Complexity: 𝑂(𝑛). O(n) because both pointers traverse the list at most once.
 - Space Complexity: 𝑂(1). O(1) because no additional data structures are used.
+## Reverse Linked List II
+- 
 
