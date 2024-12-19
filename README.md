@@ -113,5 +113,5 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - Time Complexity: 𝑂(𝑛). O(n) because both pointers traverse the list at most once.
 - Space Complexity: 𝑂(1). O(1) because no additional data structures are used.
 ## Reverse Linked List II
-- 
+- Given the head of a singly linked list and two integers left and right where left <= right, reverse the nodes of the list from position left to position right, and return the reversed list.
 
