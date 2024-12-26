@@ -121,4 +121,6 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - Simplified analysis of an algorithm.
 - Its machine independent.
 - Time Complexity: The time complexity of an algorithm quantifies the amount of time taken by an algorithm to run as a function of the length of
-the input. 
+the input.
+- The time required by the algorithm to solve given problem is called time complexity  of the algorithm.
+ 
