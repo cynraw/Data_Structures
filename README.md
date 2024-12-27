@@ -140,15 +140,15 @@ the input.
   - Worst Case: 𝑂(𝑛) O(n), if the target element is the last element or not in the list.
 ## Binary Search
 - A binary search is a more efficient algorithm that works on sorted data by repeatedly dividing the search range in half.
-Steps:
-Begin with the entire sorted list or array.
-Check the middle element:
-If it matches the target, return its index.
-If the target is smaller, search the left half.
-If the target is larger, search the right half.
-Repeat this process on the selected half until the target is found or the range is empty.
-Properties:
-Time Complexity: 
+### Steps:
+  - Begin with the entire sorted list or array.
+  - Check the middle element:
+  - If it matches the target, return its index.
+  - If the target is smaller, search the left half.
+  - If the target is larger, search the right half.
+  - Repeat this process on the selected half until the target is found or the range is empty.
+### Properties:
+  - Time Complexity: 
 𝑂
 (
 log
