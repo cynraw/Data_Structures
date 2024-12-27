@@ -123,4 +123,6 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - Time Complexity: The time complexity of an algorithm quantifies the amount of time taken by an algorithm to run as a function of the length of
 the input.
 - The time required by the algorithm to solve given problem is called time complexity  of the algorithm.
+
+ # Search algorithms
  
