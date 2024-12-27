@@ -129,35 +129,13 @@ the input.
  - A linear search is a straightforward search algorithm where each element of a list or array is checked one by one until the desired element is found or the end of the list is reached. It works for both unsorted and sorted data.
 
 ### Steps:
-Start from the first element of the list.
-Compare the current element with the target.
-If the current element matches the target, return its index.
-If the end of the list is reached without a match, return an indicator that the element is not found (e.g., -1 or None).
-Properties:
-Time Complexity: 
-𝑂
-(
-𝑛
-)
-O(n), where 
-𝑛
-n is the number of elements in the list.
-Space Complexity: 
-𝑂
-(
-1
-)
-O(1), as it requires no extra space.
-Best Case: 
-𝑂
-(
-1
-)
-O(1), if the target element is the first element.
-Worst Case: 
-𝑂
-(
-𝑛
-)
-O(n), if the target element is the last element or not in the list.
+  - Start from the first element of the list.
+  - Compare the current element with the target.
+  - If the current element matches the target, return its index.
+  - If the end of the list is reached without a match, return an indicator that the element is not found (e.g., -1 or None).
+### Properties:
+  - Time Complexity: 𝑂(𝑛)O(n), where 𝑛 n is the number of elements in the list.
+  - Space Complexity: 𝑂(1) O(1), as it requires no extra space.
+  - Best Case: 𝑂(1) O(1), if the target element is the first element.
+  - Worst Case: 𝑂(𝑛) O(n), if the target element is the last element or not in the list.
 
