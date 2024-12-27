@@ -148,39 +148,8 @@ the input.
   - If the target is larger, search the right half.
   - Repeat this process on the selected half until the target is found or the range is empty.
 ### Properties:
-  - Time Complexity: 
-𝑂
-(
-log
-⁡
-𝑛
-)
-O(logn), due to the halving of the search space.
-Space Complexity: 
-𝑂
-(
-1
-)
-O(1) for iterative implementation or 
-𝑂
-(
-log
-⁡
-𝑛
-)
-O(logn) for recursive implementation (due to recursion stack).
-Best Case: 
-𝑂
-(
-1
-)
-O(1), if the middle element is the target.
-Worst Case: 
-𝑂
-(
-log
-⁡
-𝑛
-)
-O(logn), if the search continues to the last division.
+  - Time Complexity: 𝑂(log 𝑛) O(logn), due to the halving of the search space.
+  - Space Complexity: 𝑂(1) O(1) for iterative implementation or 𝑂(log 𝑛) O(logn) for recursive implementation (due to recursion stack).
+  - Best Case: 𝑂(1) O(1), if the middle element is the target.
+  - Worst Case: 𝑂(log 𝑛) O(logn), if the search continues to the last division.
 
