@@ -125,4 +125,5 @@ the input.
 - The time required by the algorithm to solve given problem is called time complexity  of the algorithm.
 
  # Search algorithms
- 
+ ## Linear Search
+ -
