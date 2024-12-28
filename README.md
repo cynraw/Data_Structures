@@ -152,4 +152,6 @@ the input.
   - Space Complexity: 𝑂(1) O(1) for iterative implementation or 𝑂(log 𝑛) O(logn) for recursive implementation (due to recursion stack).
   - Best Case: 𝑂(1) O(1), if the middle element is the target.
   - Worst Case: 𝑂(log 𝑛) O(logn), if the search continues to the last division.
+# Sorting Algorithms
+- 
 
