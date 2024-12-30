@@ -154,4 +154,7 @@ the input.
   - Worst Case: 𝑂(log 𝑛) O(logn), if the search continues to the last division.
 # Sorting Algorithms
 ## Selection sort
+-A variable keeps track of the index of the minimum value in the array. This min starts off as the first array element and whenever a new minimum is found while parsing the array, the index of the minimum var is updated. On reaching the end of the array, the minimum one is swapped with the first element in the array. Then the cycle continues this time starting at the second array element. 
+
+## Insertion Sort
 
