@@ -161,4 +161,4 @@ the input.
 
 ## Bubble Sort
 -Works by swapping adjacent digits if the left is greater than the right. In the first round, the largest digit is taken to the end. The algorithm repeats this until the entire array is sorted or no swaps are made if that is being checked.
-- The largest element will be pushed to the furthest end after each pass.
+- The largest element will be pushed to the furthest end after each pass
