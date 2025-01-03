@@ -2,7 +2,7 @@
 Deepening my knowledge in data structure while participating in GOL clinics.
 
 ## Linked lists
-- Is a linear data structure to store data in uncontagious memory locations.
+- Is a linear data structure to store data in uncontagious memory locations
 - 3 types of linked lists Singly linked lists, doubly linked lists and circular linked lists.
 - Collection of nodes that contain two members, one data item and a pointer to the next node (in singly linked lists)
 - doubly linked list have another member which is a pointer that ppoints to the previous node.
