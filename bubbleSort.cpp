@@ -3,9 +3,9 @@ using namespace std;
 
 void bubblesort(int a[], int n){
     for (int i = 0; i<n-1; i++){
-        for (int j= i+1; j<n; j++){
-            if(a[j]<a[i]){
-                swap(a[j], a[i]);
+        for (int j= 0; j<n-1-i; j++){
+            if(a[j]>a[j+1]){
+                swap(a[j], a[j+1]);
             }
         }
     }
