@@ -111,7 +111,7 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - If there is a cycle, slow and fast will eventually meet because the fast pointer will "lap" the slow pointer within the cycle.
 - If there is no cycle, the fast pointer will reach the end of the list (null).
 - Time Complexity: 𝑂(𝑛). O(n) because both pointers traverse the list at most once.
-- Space Complexity: 𝑂(1). O(1) because no additional data structures are used.
+- Space Complexity: 𝑂(1). O(1) because no additional data structures are used
 ## Reverse Linked List II
 - Given the head of a singly linked list and two integers left and right where left <= right, reverse the nodes of the list from position left to position right, and return the reversed list.
 - Input is a singly linked list, and two integers left and right.The task is to reverse the nodes from position left to position right (1-based indexing).
