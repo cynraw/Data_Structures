@@ -43,7 +43,7 @@ Deepening my knowledge in data structure while participating in GOL clinics.
 - Compilers use stacks to help with parsing and validating syntax, such as matching parentheses, curly braces, or tags in programming languages or markup languages.
 #### Array implementation of a stack
 - Insertions and deletions are allowed only at the top of the stack.
-- In an array we can insert at any position and also delete at any position.
+- In an array we can insert at any position and also delete at any position
 - But in this case we want the array to behave like a stack, so we use a variable top that keeps track of the last inserted element / the top most element in an array.
 - Assumption is that we are given the capacity of an array.
 - In order to indicate that the stack is empty we store -1 at the top variable.
