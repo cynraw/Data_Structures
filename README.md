@@ -1,5 +1,5 @@
 # Data Structures
-Deepening my knowledge in data structure while participating in GOL clinics.
+Deepening my knowledge in data structure while participating in GOL clinics
 
 ## Linked lists
 - Is a linear data structure to store data in uncontagious memory locations
