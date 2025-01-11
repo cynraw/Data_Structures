@@ -160,8 +160,8 @@ the input.
 -Divides the array into 2 parts - the sorted and the unsorted - then loops over the unsorted section and picks each element placing it in its correct position in the sorted part of the array. It therefore starts by taking the second element and compares it with the one before and insert where necessary then moves on to the next element. This is repeated until the array is sorted. This algorithm is best in cases of online algorithms where there are new incoming values that were unknown of when the sorting began. They can just be inserted where needed.
 
 ## Bubble Sort
--Works by swapping adjacent digits if the left is greater than the right. In the first round, the largest digit is taken to the end. The algorithm repeats this until the entire array is sorted or no swaps are made if that is being checked
--The largest element will be pushed to the furthest end after each pass.
+Works by swapping adjacent digits if the left is greater than the right. In the first round, the largest digit is taken to the end. The algorithm repeats this until the entire array is sorted or no swaps are made if that is being checked
+The largest element will be pushed to the furthest end after each pass.
 
 ## Merge Sort
 The concept is that an array of 0 or 1 element is already sorted. This therefore decomposes an array to smaller arrays of length 0 or 1 the merge them to form a new sorted array. Recursion is of most importance in this. The code flow has the recursive part and the merging function. An array is split into left and right at the middle recursively into arrays of 1s and 0s then merged recursively again.
