@@ -165,4 +165,5 @@ the input.
 
 ## Merge Sort
 -The concept is that an array of 0 or 1 element is already sorted. This therefore decomposes an array to smaller arrays of length 0 or 1 the merge them to form a new sorted array. Recursion is of most importance in this. The code flow has the recursive part and the merging function. An array is split into left and right at the middle recursively into arrays of 1s and 0s then merged recursively again.
+-Its Big O is O(n log n). log n is from decomposition, i.e, decomposing an array of 8 elements to will take 3 steps, 16 will take 4 steps and so on. Therefore 2 ^ 4 = 16 (log base 2 of 16 is 4). Simple 😅. As for the n, in the merging function, comparison is approximately once for every item in both of the arrays being merged. Space complexity is at O(n) - space to store the small arrays increases as the length of the array increases.
 
