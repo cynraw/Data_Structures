@@ -164,5 +164,5 @@ the input.
 -The largest element will be pushed to the furthest end after each pass.
 
 ## Merge Sort
-
+-The concept is that an array of 0 or 1 element is already sorted. This therefore decomposes an array to smaller arrays of length 0 or 1 the merge them to form a new sorted array. Recursion is of most importance in this. The code flow has the recursive part and the merging function. An array is split into left and right at the middle recursively into arrays of 1s and 0s then merged recursively again.
 
