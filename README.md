@@ -173,4 +173,8 @@ Start by picking a pivot - doesn't matter its location - so just go with the fir
 
 The Big O is O(n log n) but can got to worst case of O(n^2) when the pivot is the minimum or maximum value each time. This can be avoided by not picking the first or last element as pivot and try to pick the middle or just a random one. Space complexity is O(log n).
 
+# Trees
+Tree data structure is a hierarchical structure that is used to represent and organize data in the form of parent child relationship.
+The topmost node of the tree is called the root, and the nodes below it are called the child nodes. Each node can have multiple child nodes, and these child nodes can also have their own child nodes, forming a recursive structure.
+
 
