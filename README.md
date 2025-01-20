@@ -71,7 +71,7 @@ Deepening my knowledge in data structure while participating in GOL clinics
 - This condition 9if(i % 3 == 0 && i % 5 == 0){cout << "fizzBuzz" << endl; })should always come first otherwise it will not be achieved.
 
 #### Power of Two Interview Question
-- The most common way to check if a number n is a power of two is using the expression n & (n - 1).
+- The most common way to check if a number n is a power of two is using the expression n & (n - 1)..
 - Here’s how it works:
 - For a number n that is a power of two, n has a single 1 bit in its binary form.
 - Subtracting 1 from n flips all the bits after the single 1 bit in n:
