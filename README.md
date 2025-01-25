@@ -53,7 +53,7 @@ Deepening my knowledge in data structure while participating in GOL clinics
 - pop() deletes the top most element of the stack and returns that element.
   
 ### Queues
-- Operates on FIFO(First In First Out)principle. E.g a line at a checkout counter; the first person in line is the first one to be served.
+- Operates on FIFO(First In First Out)principle. E.g a line at a checkout counter; the first person in line is the first one to be served
 - Operations:
 - Enqueue:Add an element to the back of the queue.
 - Dequeue:Remove the element from the front of the queue.
