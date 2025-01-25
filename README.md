@@ -12,7 +12,7 @@ Deepening my knowledge in data structure while participating in GOL clinics
 - Reversing a linked list means changing the direction of the pointers so that the head points to the last node and each subsequent node points to the previous one.
 - Steps to Reverse a Linked List
 - To reverse the list, you need to:
-- Traverse the list.
+- Traverse the list
 - At each step,reverse the next pointer so that it points to the previous node.
 - Pseudocode Explanation
 - You will need three pointers:
